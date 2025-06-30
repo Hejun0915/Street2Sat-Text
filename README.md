@@ -8,6 +8,6 @@ Remote sensing image synthesis tasks aim at generating high-quality and realisti
 
 ## 📊 Dataset Statistics
 
-![Dataset Statistics](asset\imgs\Street2Sat-Text.jpg)
+![Dataset Statistics](./asset/imgs/Street2Sat-Text.jpg)
 
 In this study, we introduce the **Street2Sat-Text** multimodal dataset, which is designed for text-guided street-to-satellite image synthesis tasks. Street2Sat-Text covers three cities: New York, Munich, and Brisbane, containing over 36K coordinates. The distribution of image data for each city is shown in Figure above. The data from New York is more representative of urban environments, while the data from Brisbane and Munich lean more towards suburban scenes. Each coordinate includes the corresponding street view image, satellite image, and associated scene text description.
