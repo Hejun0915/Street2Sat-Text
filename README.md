@@ -1,1 +1,13 @@
-# Street2Sat-Text
+# 🌍 Street2Sat-Text
+
+This is the official dataset for the paper "Satellite Image Synthesis from Street View with Fine-Grained Spatial Textual Guidance" (IEEE Geoscience and Remote Sensing Magnazine, 2025)
+
+## 📑 Abstract
+
+Remote sensing image synthesis tasks aim at generating high-quality and realistic images based on given conditional inputs. Compared to existing methods that rely on semantic maps or text descriptions derived from satellite images, synthesizing satellite images from street views offers a more practical approach for generating satellite imagery of specific locations. Although diffusion models have shown great potential in recent satellite image synthesis research, current studies still face challenges such as the lack of fine-grained spatial text description datasets and issues with the realism and consistency of synthesis results. To address this, we first constructed Street2Sat-Text, a novel dataset aligning street-view images, satellite images, and text descriptions. By integrating Visual Language Models (VLMs) and Bird's Eye View (BEV) transformation, it captures fine-grained spatial text from street-view images to guide accurate satellite image synthesis. We also extended our scalable text generation pipeline to CVACT, resulting in the multimodal CVACT-Text dataset. In addition, we propose a novel street-to-satellite image synthesis network that generates realistic and consistent satellite images from BEV images and spatial text, achieving state-of-the-art FID and SSIM performance. Furthermore, we validated the effectiveness of our algorithm across several practical tasks such as disaster emergency response, historical high-resolution satellite image synthesis, and cross-view retrieval. Our work addresses the lack of fine-grained spatial text datasets and proposes an effective method for satellite image synthesis, demonstrating practical value across multiple downstream applications.
+
+## 📊 Dataset Statistics
+
+![Dataset Statistics](asset\imgs\Street2Sat-Text.jpg)
+
+In this study, we introduce the **Street2Sat-Text** multimodal dataset, which is designed for text-guided street-to-satellite image synthesis tasks. Street2Sat-Text covers three cities: New York, Munich, and Brisbane, containing over 36K coordinates. The distribution of image data for each city is shown in Figure above. The data from New York is more representative of urban environments, while the data from Brisbane and Munich lean more towards suburban scenes. Each coordinate includes the corresponding street view image, satellite image, and associated scene text description.
